@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 export default function Hero() {
   return (
-    <div className="relative flex flex-col items-center justify-center overflow-hidden px-2 sm:px-4 md:px-6 lg:px-8" data-aos="fade-up">
+    <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-2 sm:px-4 md:px-6 lg:px-8" data-aos="fade-up">
       {/* Neon blurred circles */}
       <div className="absolute -top-32 -left-32 w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[600px] md:h-[600px] bg-gradient-radial from-fuchsia-700/30 via-purple-800/30 to-transparent opacity-40 blur-3xl" />
       <div className="absolute -bottom-40 right-0 w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[500px] bg-gradient-radial from-blue-800/30 via-cyan-700/30 to-transparent opacity-30 blur-3xl" />
