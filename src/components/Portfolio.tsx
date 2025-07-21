@@ -1,6 +1,6 @@
 'use client';
 
-import Image from "next/image";
+
 import { FaRobot, FaCoffee, FaBuilding } from 'react-icons/fa';
 
 export default function Portfolio() {
