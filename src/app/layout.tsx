@@ -46,7 +46,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`font-urbanist ${geistSans.variable} ${geistMono.variable} antialiased relative`}>
-        <div className="fixed inset-0 -z-20 bg-gradient-to-br from-[#1e0036] to-[#000c3f]" />
+        <div className="fixed inset-0 -z-20 bg-gradient-to-br from-[#1e0036] to-[#000c3f] pointer-events-none" />
         <div className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] rounded-full bg-white opacity-18 blur-3xl -z-19 pointer-events-none" />
         <div
           className="fixed inset-0 -z-18 pointer-events-none opacity-7"
