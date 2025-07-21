@@ -79,7 +79,7 @@ ${form.whatsapp ? `📱 *WhatsApp:* ${form.whatsapp}` : ''}
   return (
     <section
       id="contact-section"
-      className="bg-black border-t border-purple-900/40 relative overflow-hidden opacity-0 transition-opacity duration-900 px-2 sm:px-4 md:px-6"
+      className="bg-black border-t border-purple-900/40 relative overflow-hidden overflow-x-hidden opacity-0 transition-opacity duration-900 px-2 sm:px-4 md:px-6"
       data-aos="fade-up"
       data-aos-once="true"
       data-aos-duration="900"

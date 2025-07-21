@@ -5,7 +5,7 @@ import { FaRobot, FaCoffee, FaBuilding } from 'react-icons/fa';
 
 export default function Portfolio() {
   return (
-    <section className="relative bg-transparent w-full px-2 sm:px-4 md:px-6" data-aos="fade-right">
+    <section className="relative bg-transparent w-full px-2 sm:px-4 md:px-6 overflow-x-hidden" data-aos="fade-right">
       {/* Neon blurred circles */}
       <div className="absolute -top-24 left-1/3 w-[200px] h-[200px] sm:w-[400px] sm:h-[400px] bg-gradient-radial from-fuchsia-600/20 via-purple-700/20 to-transparent opacity-30 blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 right-1/4 w-[150px] h-[150px] sm:w-[350px] sm:h-[350px] bg-gradient-radial from-blue-700/20 via-cyan-500/20 to-transparent opacity-20 blur-3xl pointer-events-none" />

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="relative bg-black w-full overflow-hidden px-2 sm:px-4 md:px-6" data-aos="fade-left">
+    <section className="relative bg-black w-full overflow-hidden overflow-x-hidden px-2 sm:px-4 md:px-6" data-aos="fade-left">
       {/* Gradient overlay */}
       <div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-[#1e0036]/60 via-transparent to-[#000c3f]/60 opacity-80 z-0" />
       {/* Neon blurred circle */}
