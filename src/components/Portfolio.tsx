@@ -70,7 +70,7 @@ export default function Portfolio() {
             </div>
           </div>
           {/* Project 3: Property Agency */}
-          <div className="container" onClick={() => window.open('https://guileless-pony-9ac277.netlify.app', '_blank')} style={{ cursor: 'pointer' }}>
+          <div className="container" onClick={() => window.open('joyful-semolina-df7a6b.netlify.app', '_blank')} style={{ cursor: 'pointer' }}>
             <div className="canvas">
               {[...Array(25)].map((_, i) => (
                 <div key={i} className={`tracker tr-${i + 1}`}></div>
